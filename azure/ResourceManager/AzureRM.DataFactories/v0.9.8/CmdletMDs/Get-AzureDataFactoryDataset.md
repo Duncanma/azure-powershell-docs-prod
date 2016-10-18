@@ -10,9 +10,9 @@ ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
 ms.technology: Azure PowerShell
-author: Visual Studio China
-keywords: powershell, content
-manager: Visual Studio China
+author: visual-studio-china
+keywords: powershell, cmdlet
+manager: visual-studio-china
 ---
 
 # Get-AzureDataFactoryDataset
