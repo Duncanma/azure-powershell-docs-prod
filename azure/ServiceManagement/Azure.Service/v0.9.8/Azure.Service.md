@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: Please enter version of help manually (X.X.X.X) format
 Locale: en-US
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Azure.Service.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Azure.Service.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Azure.Service.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -130,7 +130,7 @@ Lists all Azure guest operating systems.
 Gets the Public IP information for an Azure virtual machine.
 
 
-### [Get-AzureRemoteDesktopFile](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureRemoteDesktopFile.md)
+### [Get-AzureRemoteDesktopFile](.\Get-AzureRemoteDesktopFile.md)
 Gets an RDP file for an Azure virtual machine.
 
 
@@ -150,7 +150,7 @@ Returns a list of roles in your Microsoft Azure service.
 Gets the cloud service Active Directory (AD) domain extension that applies to all roles or to named roles at a specified deployment slot.
 
 
-### [Get-AzureServiceAntimalwareConfig](..\..\..\Azure.Antimalware\v0.9.8\CmdletMDs\Get-AzureServiceAntimalwareConfig.md)
+### [Get-AzureServiceAntimalwareConfig](.\Get-AzureServiceAntimalwareConfig.md)
 Gets configuration details for the Microsoft Antimalware service extension.
 
 
@@ -190,7 +190,7 @@ Returns the primary and secondary storage account keys for an Azure storage acco
 Gets a list of subnets associated with the specified Azure virtual machine.
 
 
-### [Get-AzureVMAccessExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVMAccessExtension.md)
+### [Get-AzureVMAccessExtension](.\Get-AzureVMAccessExtension.md)
 Gets the VMAccess extension applied on a virtual machine.
 
 
@@ -206,7 +206,7 @@ Gets the BGInfo extension applied on a virtual machine.
 Gets the Chef extension applied on a virtual machine.
 
 
-### [Get-AzureVMCustomScriptExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVMCustomScriptExtension.md)
+### [Get-AzureVMCustomScriptExtension](.\Get-AzureVMCustomScriptExtension.md)
 Gets information from an Azure virtual machine custom script extension.
 
 
@@ -222,7 +222,7 @@ Gets the DSC extension status for all the virtual machines deployed in a cloud s
 Gets the settings of the DSC extension on a virtual machine.
 
 
-### [Get-AzureVMExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVMExtension.md)
+### [Get-AzureVMExtension](.\Get-AzureVMExtension.md)
 Gets resource extensions applied to virtual machines.
 
 
@@ -230,11 +230,11 @@ Gets resource extensions applied to virtual machines.
 Gets a disk configuration set object from the input image context.
 
 
-### [Get-AzureVMImage](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVMImage.md)
+### [Get-AzureVMImage](.\Get-AzureVMImage.md)
 Gets the properties on one or a list of operating systems or a virtual machine image in the image repository.
 
 
-### [Get-AzureVMMicrosoftAntimalwareExtension](..\..\..\Azure.Antimalware\v0.9.8\CmdletMDs\Get-AzureVMMicrosoftAntimalwareExtension.md)
+### [Get-AzureVMMicrosoftAntimalwareExtension](.\Get-AzureVMMicrosoftAntimalwareExtension.md)
 Gets the Microsoft Antimalware extension details for a virtual machine.
 
 
@@ -246,7 +246,7 @@ Gets the Puppet extension applied on a virtual machine.
 Gets the settings of the SQL Server IaaS Agent on a particular virtual machine.
 
 
-### [Get-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVM.md)
+### [Get-AzureVM](.\Get-AzureVM.md)
 Retrieves information from one or more Azure virtual machines.
 
 
@@ -334,7 +334,7 @@ Creates a new storage account in an Azure subscription.
 Regenerates storage keys for an Azure storage account.
 
 
-### [New-AzureVMConfig](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\New-AzureVMConfig.md)
+### [New-AzureVMConfig](.\New-AzureVMConfig.md)
 Creates an Azure virtual machine configuration object.
 
 
@@ -350,7 +350,7 @@ Creates a configuration object for SQL Server automatic backup.
 Creates a configuration object for virtual machine automatic patching.
 
 
-### [New-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\New-AzureVM.md)
+### [New-AzureVM](.\New-AzureVM.md)
 Creates an Azure virtual machine.
 
 
@@ -366,7 +366,7 @@ Removes an ACL configuration object from an Azure virtual machine configuration.
 Deletes an affinity group in a subscription.
 
 
-### [Remove-AzureAvailabilitySet](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Remove-AzureAvailabilitySet.md)
+### [Remove-AzureAvailabilitySet](.\Remove-AzureAvailabilitySet.md)
 Removes an availability set from an Azure virtual machine.
 
 
@@ -422,7 +422,7 @@ Removes a reserved IP address by its name.
 Removes the cloud service AD domain extension applied on all roles or named roles at a certain deployment slot.
 
 
-### [Remove-AzureServiceAntimalwareExtension](..\..\..\Azure.Antimalware\v0.9.8\CmdletMDs\Remove-AzureServiceAntimalwareExtension.md)
+### [Remove-AzureServiceAntimalwareExtension](.\Remove-AzureServiceAntimalwareExtension.md)
 Removes the antimalware configuration from a cloud service.
 
 
@@ -450,7 +450,7 @@ Deletes the specified storage account from a subscription.
 Deletes a virtual IP address from your Cloud Service.
 
 
-### [Remove-AzureVMAccessExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Remove-AzureVMAccessExtension.md)
+### [Remove-AzureVMAccessExtension](.\Remove-AzureVMAccessExtension.md)
 Removes the VMAccess extension applied on a virtual machine.
 
 
@@ -462,7 +462,7 @@ Removes the BGInfo extension applied on a virtual machine.
 Removes the Chef extension applied on the virtual machine.
 
 
-### [Remove-AzureVMCustomScriptExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Remove-AzureVMCustomScriptExtension.md)
+### [Remove-AzureVMCustomScriptExtension](.\Remove-AzureVMCustomScriptExtension.md)
 Removes the custom script extension from a virtual machine.
 
 
@@ -474,7 +474,7 @@ Removes the custom script extension from a virtual machine.
 Removes an Azure DSC extension from a virtual machine.
 
 
-### [Remove-AzureVMExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Remove-AzureVMExtension.md)
+### [Remove-AzureVMExtension](.\Remove-AzureVMExtension.md)
 Removes resource extensions from a virtual machine.
 
 
@@ -490,7 +490,7 @@ Removes the operating system disk configuration from the DiskConfigSet object.
 Removes an operating system image from the image repository.
 
 
-### [Remove-AzureVMMicrosoftAntimalwareExtension](..\..\..\Azure.Antimalware\v0.9.8\CmdletMDs\Remove-AzureVMMicrosoftAntimalwareExtension.md)
+### [Remove-AzureVMMicrosoftAntimalwareExtension](.\Remove-AzureVMMicrosoftAntimalwareExtension.md)
 Removes the Microsoft Antimalware extension from a virtual machine.
 
 
@@ -502,7 +502,7 @@ Removes the Puppet extension applied on a virtual machine.
 Removes an Azure virtual machine SQL Server extension from a virtual machine object.
 
 
-### [Remove-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Remove-AzureVM.md)
+### [Remove-AzureVM](.\Remove-AzureVM.md)
 Removes an Azure virtual machine.
 
 
@@ -514,7 +514,7 @@ Deletes the network configuration from the current Azure subscription.
 Requests a reboot or reimage of a single role instance or all role instances of a specific role.
 
 
-### [Restart-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Restart-AzureVM.md)
+### [Restart-AzureVM](.\Restart-AzureVM.md)
 Restarts an Azure virtual machine.
 
 
@@ -522,7 +522,7 @@ Restarts an Azure virtual machine.
 Enables download of .vhd images.
 
 
-### [Save-AzureVMImage](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Save-AzureVMImage.md)
+### [Save-AzureVMImage](.\Save-AzureVMImage.md)
 Captures and saves the image of a stopped Azure virtual machine.
 
 
@@ -590,7 +590,7 @@ Sets the number of instances of an Azure role to run.
 Enables an AD Domain extension for a cloud service.
 
 
-### [Set-AzureServiceAntimalwareExtension](..\..\..\Azure.Antimalware\v0.9.8\CmdletMDs\Set-AzureServiceAntimalwareExtension.md)
+### [Set-AzureServiceAntimalwareExtension](.\Set-AzureServiceAntimalwareExtension.md)
 Configures the Microsoft Antimalware extension for cloud services.
 
 
@@ -622,7 +622,7 @@ Updates the properties of a storage account in an Azure subscription.
 Defines the subnet list for an Azure virtual machine.
 
 
-### [Set-AzureVMAccessExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Set-AzureVMAccessExtension.md)
+### [Set-AzureVMAccessExtension](.\Set-AzureVMAccessExtension.md)
 Sets the VMAccess extension for a virtual machine.
 
 
@@ -634,7 +634,7 @@ Sets the BGInfo extension for a virtual machine.
 Adds the Chef extension to the virtual machine.
 
 
-### [Set-AzureVMCustomScriptExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Set-AzureVMCustomScriptExtension.md)
+### [Set-AzureVMCustomScriptExtension](.\Set-AzureVMCustomScriptExtension.md)
 Sets information for an Azure virtual machine custom script extension.
 
 
@@ -646,7 +646,7 @@ Sets information for an Azure virtual machine custom script extension.
 Configures the DSC extension on a virtual machine.
 
 
-### [Set-AzureVMExtension](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Set-AzureVMExtension.md)
+### [Set-AzureVMExtension](.\Set-AzureVMExtension.md)
 Sets resource extensions for virtual machines.
 
 
@@ -658,7 +658,7 @@ Sets the Data Disk properties on the virtual machine image.
 Sets the operating system disk properties on a virtual machine image.
 
 
-### [Set-AzureVMMicrosoftAntimalwareExtension](..\..\..\Azure.Antimalware\v0.9.8\CmdletMDs\Set-AzureVMMicrosoftAntimalwareExtension.md)
+### [Set-AzureVMMicrosoftAntimalwareExtension](.\Set-AzureVMMicrosoftAntimalwareExtension.md)
 Configures the Microsoft Antimalware extension for a virtual machine.
 
 
@@ -682,11 +682,11 @@ Updates the virtual network settings for an Azure cloud service.
 Walks the specified upgrade domain.
 
 
-### [Start-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Start-AzureVM.md)
+### [Start-AzureVM](.\Start-AzureVM.md)
 Starts an Azure virtual machine.
 
 
-### [Stop-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Stop-AzureVM.md)
+### [Stop-AzureVM](.\Stop-AzureVM.md)
 Shuts down an Azure virtual machine.
 
 
@@ -702,7 +702,7 @@ Changes the label of a disk in the Azure disk repository.
 Updates the label of an operating system image in the image repository.
 
 
-### [Update-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Update-AzureVM.md)
+### [Update-AzureVM](.\Update-AzureVM.md)
 Modifies the configuration of an Azure virtual machine.
 
 

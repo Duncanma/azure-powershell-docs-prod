@@ -4,10 +4,10 @@ Module Guid: D48CF693-4125-4D2D-8790-1514F44CE325
 Download Help Link: none
 Help Version: 3.0.0.0
 Locale: en-US
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Azure.Service.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Azure.Service.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v2.1.0/Azure.Service.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -110,7 +110,7 @@ Gets information about the endpoints that are assigned to an Azure virtual machi
 Gets the details of the internal load balancer configuration.
 
 
-### [Get-AzureLocation](..\..\..\Azure.Compute\v2.0\CmdletMDs\Get-AzureLocation.md)
+### [Get-AzureLocation](.\Get-AzureLocation.md)
 Gets the available data center locations for the current Azure subscription.
 
 
@@ -150,7 +150,7 @@ Returns a list of roles in your Microsoft Azure service.
 Gets the cloud service Active Directory (AD) domain extension that applies to all roles or to named roles at a specified deployment slot.
 
 
-### [Get-AzureServiceAntimalwareConfig](..\..\..\Azure.Compute\v2.0\CmdletMDs\Get-AzureServiceAntimalwareConfig.md)
+### [Get-AzureServiceAntimalwareConfig](.\Get-AzureServiceAntimalwareConfig.md)
 Gets configuration details for the Microsoft Antimalware service extension.
 
 
@@ -366,15 +366,15 @@ Creates an Azure virtual machine configuration object.
 Creates a disk configuration set object.
 
 
-### [New-AzureVMSqlServerAutoBackupConfig](..\..\..\..\ResourceManager\AzureRM.Compute\v2.0\CmdletMDs\New-AzureVMSqlServerAutoBackupConfig.md)
+### [New-AzureVMSqlServerAutoBackupConfig](.\New-AzureVMSqlServerAutoBackupConfig.md)
 Creates a configuration object for SQL Server automatic backup.
 
 
-### [New-AzureVMSqlServerAutoPatchingConfig](..\..\..\..\ResourceManager\AzureRM.Compute\v2.0\CmdletMDs\New-AzureVMSqlServerAutoPatchingConfig.md)
+### [New-AzureVMSqlServerAutoPatchingConfig](.\New-AzureVMSqlServerAutoPatchingConfig.md)
 Creates a configuration object for virtual machine automatic patching.
 
 
-### [New-AzureVMSqlServerKeyVaultCredentialConfig](..\..\..\..\ResourceManager\AzureRM.Compute\v2.0\CmdletMDs\New-AzureVMSqlServerKeyVaultCredentialConfig.md)
+### [New-AzureVMSqlServerKeyVaultCredentialConfig](.\New-AzureVMSqlServerKeyVaultCredentialConfig.md)
 
 
 

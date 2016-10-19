@@ -4,10 +4,10 @@ Module Guid: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 Download Help Link: Please enter FwLink manually
 Help Version: 1.0.0.0
 Locale: en-US
-updated_at: 10/19/2016 9:46 PM
+updated_at: 10/19/2016 10:11 PM
 ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/74b346742ae40ec75fc505ce886fae2812ab9a3a/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Azure.Compute.md
 ms.topic: conceptual
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -108,7 +108,7 @@ Gets a list of scheduler jobs or a particular scheduler job.
 Gets available scheduler locations.
 
 
-### [Get-AzureServiceAntimalwareConfig](..\..\..\Azure.Antimalware\v1.0\CmdletMDs\Get-AzureServiceAntimalwareConfig.md)
+### [Get-AzureServiceAntimalwareConfig](.\Get-AzureServiceAntimalwareConfig.md)
 
 
 
@@ -307,7 +307,7 @@ Removes the current cloud service.
 Removes an existing add-on instance.
 
 
-### [Remove-AzureVMMicrosoftAntimalwareExtension](..\..\..\Azure.Antimalware\v1.0\CmdletMDs\Remove-AzureVMMicrosoftAntimalwareExtension.md)
+### [Remove-AzureVMMicrosoftAntimalwareExtension](.\Remove-AzureVMMicrosoftAntimalwareExtension.md)
 
 
 

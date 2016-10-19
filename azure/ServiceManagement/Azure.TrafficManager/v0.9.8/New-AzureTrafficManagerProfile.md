@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=398285
 schema: 2.0.0
 ms.assetid: 406B9C0F-1C7A-4000-9AC4-A272FE4AEDD1
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -222,10 +222,10 @@ This cmdlet generates a Traffic Manager profile object.
 
 [Enable-AzureTrafficManagerProfile](.\Enable-AzureTrafficManagerProfile.md)
 
-[Get-AzureTrafficManagerProfile](..\..\..\..\ResourceManager\AzureRM.TrafficManager\v0.9.8\CmdletMDs\Get-AzureTrafficManagerProfile.md)
+[Get-AzureTrafficManagerProfile](.\Get-AzureTrafficManagerProfile.md)
 
-[Remove-AzureTrafficManagerProfile](..\..\..\..\ResourceManager\AzureRM.TrafficManager\v0.9.8\CmdletMDs\Remove-AzureTrafficManagerProfile.md)
+[Remove-AzureTrafficManagerProfile](.\Remove-AzureTrafficManagerProfile.md)
 
-[Set-AzureTrafficManagerProfile](..\..\..\..\ResourceManager\AzureRM.TrafficManager\v0.9.8\CmdletMDs\Set-AzureTrafficManagerProfile.md)
+[Set-AzureTrafficManagerProfile](.\Set-AzureTrafficManagerProfile.md)
 
 

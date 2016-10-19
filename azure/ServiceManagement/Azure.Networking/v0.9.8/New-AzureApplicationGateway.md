@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\Get-AzureApplicationGateway.md
 schema: 2.0.0
 ms.assetid: 7D70DFAE-9BA1-4FF0-8924-6CA9A1BD75CE
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/New-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/New-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/New-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -170,13 +170,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Get-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Get-AzureApplicationGateway.md)
+[Get-AzureApplicationGateway](.\Get-AzureApplicationGateway.md)
 
-[Remove-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Remove-AzureApplicationGateway.md)
+[Remove-AzureApplicationGateway](.\Remove-AzureApplicationGateway.md)
 
-[Start-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Start-AzureApplicationGateway.md)
+[Start-AzureApplicationGateway](.\Start-AzureApplicationGateway.md)
 
-[Stop-AzureApplicationGateway](..\..\..\..\ResourceManager\AzureRM.Network\v0.9.8\CmdletMDs\Stop-AzureApplicationGateway.md)
+[Stop-AzureApplicationGateway](.\Stop-AzureApplicationGateway.md)
 
 [Update-AzureApplicationGateway](.\Update-AzureApplicationGateway.md)
 

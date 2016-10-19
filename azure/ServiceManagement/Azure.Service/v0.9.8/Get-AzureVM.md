@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\New-AzureVM.md
 schema: 2.0.0
 ms.assetid: B745860C-13A7-4EBC-AAFD-9E5EFA9832DE
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Get-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -120,18 +120,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[New-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\New-AzureVM.md)
+[New-AzureVM](.\New-AzureVM.md)
 
-[New-AzureVMConfig](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\New-AzureVMConfig.md)
+[New-AzureVMConfig](.\New-AzureVMConfig.md)
 
-[Remove-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Remove-AzureVM.md)
+[Remove-AzureVM](.\Remove-AzureVM.md)
 
-[Restart-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Restart-AzureVM.md)
+[Restart-AzureVM](.\Restart-AzureVM.md)
 
-[Start-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Start-AzureVM.md)
+[Start-AzureVM](.\Start-AzureVM.md)
 
-[Stop-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Stop-AzureVM.md)
+[Stop-AzureVM](.\Stop-AzureVM.md)
 
-[Update-AzureVM](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Update-AzureVM.md)
+[Update-AzureVM](.\Update-AzureVM.md)
 
 

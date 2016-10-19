@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.HDInsight.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: 6BCB0B9C-C781-41CE-B1DE-CC0DA7FB6232
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -511,18 +511,18 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Add-AzureHDInsightMetastore](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Add-AzureHDInsightMetastore.md)
+[Add-AzureHDInsightMetastore](.\Add-AzureHDInsightMetastore.md)
 
-[Add-AzureHDInsightStorage](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Add-AzureHDInsightStorage.md)
+[Add-AzureHDInsightStorage](.\Add-AzureHDInsightStorage.md)
 
-[Get-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Get-AzureHDInsightCluster.md)
+[Get-AzureHDInsightCluster](.\Get-AzureHDInsightCluster.md)
 
-[New-AzureHDInsightClusterConfig](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\New-AzureHDInsightClusterConfig.md)
+[New-AzureHDInsightClusterConfig](.\New-AzureHDInsightClusterConfig.md)
 
-[Remove-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Remove-AzureHDInsightCluster.md)
+[Remove-AzureHDInsightCluster](.\Remove-AzureHDInsightCluster.md)
 
-[Set-AzureHDInsightDefaultStorage](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Set-AzureHDInsightDefaultStorage.md)
+[Set-AzureHDInsightDefaultStorage](.\Set-AzureHDInsightDefaultStorage.md)
 
-[Use-AzureHDInsightCluster](..\..\..\..\ResourceManager\AzureRM.HDInsight\v0.9.8\CmdletMDs\Use-AzureHDInsightCluster.md)
+[Use-AzureHDInsightCluster](.\Use-AzureHDInsightCluster.md)
 
 

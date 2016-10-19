@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Add-AzureVMImage.md
 schema: 2.0.0
 ms.assetid: E61C7DCB-D9EB-4B05-9AB3-524F21D45AF8
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMImage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMImage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v0.9.8/Remove-AzureVMImage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -120,9 +120,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Add-AzureVMImage](.\Add-AzureVMImage.md)
 
-[Get-AzureVMImage](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Get-AzureVMImage.md)
+[Get-AzureVMImage](.\Get-AzureVMImage.md)
 
-[Save-AzureVMImage](..\..\..\..\ResourceManager\AzureRM.Compute\v0.9.8\CmdletMDs\Save-AzureVMImage.md)
+[Save-AzureVMImage](.\Save-AzureVMImage.md)
 
 [Update-AzureVMImage](.\Update-AzureVMImage.md)
 

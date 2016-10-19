@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Automation.dll-Help.xml
 online version: .\Get-AzureAutomationConnection.md
 schema: 2.0.0
 ms.assetid: 7D9EC421-8039-4C36-AC81-613BFF1FC2C6
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/19/2016 10:11 PM
+ms.date: 10/19/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/New-AzureAutomationConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/New-AzureAutomationConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Automation/v0.9.8/New-AzureAutomationConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -145,10 +145,10 @@ Microsoft.Azure.Commands.Automation.Model.Connection
 
 ## RELATED LINKS
 
-[Get-AzureAutomationConnection](..\..\..\..\ResourceManager\AzureRM.Automation\v0.9.8\CmdletMDs\Get-AzureAutomationConnection.md)
+[Get-AzureAutomationConnection](.\Get-AzureAutomationConnection.md)
 
-[Remove-AzureAutomationConnection](..\..\..\..\ResourceManager\AzureRM.Automation\v0.9.8\CmdletMDs\Remove-AzureAutomationConnection.md)
+[Remove-AzureAutomationConnection](.\Remove-AzureAutomationConnection.md)
 
-[Set-AzureAutomationConnectionFieldValue](..\..\..\..\ResourceManager\AzureRM.Automation\v0.9.8\CmdletMDs\Set-AzureAutomationConnectionFieldValue.md)
+[Set-AzureAutomationConnectionFieldValue](.\Set-AzureAutomationConnectionFieldValue.md)
 
 
