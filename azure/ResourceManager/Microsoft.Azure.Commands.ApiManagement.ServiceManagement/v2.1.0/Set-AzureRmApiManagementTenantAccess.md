@@ -1,0 +1,132 @@
+---
+external help file: Microsoft.Azure.Commands.ApiManagement.ServiceManagement.dll-Help.xml
+online version: .\Get-AzureRmApiManagementTenantAccess.md
+schema: 2.0.0
+ms.assetid: 3B5FC8E3-5A02-4F3B-81F0-51DFE47A201B
+updated_at: 10/18/2016 9:38 PM
+ms.date: 10/18/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementTenantAccess.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/Microsoft.Azure.Commands.ApiManagement.ServiceManagement/v2.1.0/Set-AzureRmApiManagementTenantAccess.md
+ms.topic: reference
+ms.prod: powershell
+ms.service: Azure PowerShell
+ms.technology: Azure PowerShell
+author: visual-studio-china
+keywords: powershell, cmdlet
+manager: visual-studio-china
+---
+
+# Set-AzureRmApiManagementTenantAccess
+
+## SYNOPSIS
+Enables or disables tenant access.
+
+## SYNTAX
+
+```
+Set-AzureRmApiManagementTenantAccess -Context <PsApiManagementContext> -Enabled <Boolean> [-PassThru]
+ [-InformationAction <ActionPreference>] [-InformationVariable <String>] [<CommonParameters>]
+```
+
+## DESCRIPTION
+The **Set-AzureRmApiManagementTenantAccess** cmdlet enables or disables tenant access.
+
+## EXAMPLES
+
+### Example 1: Enable tenant access
+```
+PS C:\>Set-AzureRmApiManagementTenantAccess -Context $ApimContext -Enabled $True
+```
+
+This command enables tenant access in the specified context.
+
+## PARAMETERS
+
+### -Context
+Specifies a **PsApiManagementContext** object.
+
+```yaml
+Type: PsApiManagementContext
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Enabled
+Specifies whether this cmdlet enables or disables tenant access.
+Specify a value of $True to enable or $False to disable.
+
+```yaml
+Type: Boolean
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PassThru
+Indicates that this cmdlet returns the **PsApiManagementAccessInformation** that this cmdlet modifies.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -InformationAction
+@{Text=}```yaml
+Type: ActionPreference
+Parameter Sets: (All)
+Aliases: infa
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InformationVariable
+@{Text=}```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: iv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+## INPUTS
+
+## OUTPUTS
+
+### Microsoft.Azure.Commands.ApiManagement.ServiceManagement.Models.PsApiManagementAccessInformation
+
+## NOTES
+
+## RELATED LINKS
+
+[Get-AzureRmApiManagementTenantAccess](.\Get-AzureRmApiManagementTenantAccess.md)
+
+
