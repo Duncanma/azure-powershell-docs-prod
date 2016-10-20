@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.SqlDatabase.dll-Help.xml
 online version: .\Get-AzureSqlDatabaseImportExportStatus.md
 schema: 2.0.0
 ms.assetid: 5CD1BEB1-19AC-4C59-8053-B7838B71CAAC
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseImport.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseImport.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.SQLDatabase/v0.9.8/Start-AzureSqlDatabaseImport.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -186,7 +186,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-In-memory profile.```yaml
+In-memory profile.
+
+```yaml
 Type: AzureProfile
 Parameter Sets: (All)
 Aliases: 

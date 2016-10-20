@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Get-AzureVMExtension.md
 schema: 2.0.0
 ms.assetid: 91C5EA1E-088A-4C03-B364-1A43F3BB2DA0
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -50,7 +50,9 @@ This command gets the instance view of the custom script extension named Contoso
 ## PARAMETERS
 
 ### -Name
-Specifies the name of the custom script extension about which this cmdlet gets information.```yaml
+Specifies the name of the custom script extension about which this cmdlet gets information.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ExtensionName
@@ -79,7 +81,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group of the virtual machine.```yaml
+Specifies the name of the resource group of the virtual machine.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -92,7 +96,9 @@ Accept wildcard characters: False
 ```
 
 ### -Status
-Indicates that this cmdlet gets the instance view of the custom script extension.```yaml
+Indicates that this cmdlet gets the instance view of the custom script extension.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -105,7 +111,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies the name of a virtual machine for which this cmdlet gets the custom script extension.```yaml
+Specifies the name of a virtual machine for which this cmdlet gets the custom script extension.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xm
 online version: .\Get-AzureRmRecoveryServicesBackupManagementServer.md
 schema: 2.0.0
 ms.assetid: 51B14107-4F6B-4570-AC50-4C9465832B68
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Unregister-AzureRmRecoveryServicesBackupManagementServer.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Unregister-AzureRmRecoveryServicesBackupManagementServer.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Unregister-AzureRmRecoveryServicesBackupManagementServer.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -51,7 +51,9 @@ The second command unregisters the SCDPM server from the vault.
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -64,7 +66,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Get-AzureVM.md
 schema: 2.0.0
 ms.assetid: 90910030-C988-41DF-ADE1-C4FCFE4A1C7E
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Update-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Update-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Update-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -68,7 +68,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group.```yaml
+Specifies the name of a resource group.
+
+```yaml
 Type: String
 Parameter Sets: ResourceGroupNameParameterSetName
 Aliases: 
@@ -81,7 +83,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: Hashtable[]
 Parameter Sets: (All)
 Aliases: 
@@ -111,7 +115,9 @@ Accept wildcard characters: False
 ```
 
 ### -Id
-The resource group name.```yaml
+The resource group name.
+
+```yaml
 Type: String
 Parameter Sets: IdParameterSetName
 Aliases: 

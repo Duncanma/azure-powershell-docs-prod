@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Management.Storage.dll-Help.xml
 online version: e33b0d60-c851-4bc5-b2b3-6d151590a796
 schema: 2.0.0
 ms.assetid: 798D3B87-2A3D-4C5B-9925-031CFE6B5F64
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.1.0/Get-AzureRmStorageUsage.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.1.0/Get-AzureRmStorageUsage.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Storage/v2.1.0/Get-AzureRmStorageUsage.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -43,7 +43,9 @@ This command gets the Storage resources usage of the current subscription.
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -56,7 +58,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv

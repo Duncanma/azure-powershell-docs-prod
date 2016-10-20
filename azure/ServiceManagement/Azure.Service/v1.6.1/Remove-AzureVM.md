@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\New-AzureVM.md
 schema: 2.0.0
 ms.assetid: 27923147-D294-444D-B7CC-64D54D99495E
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVM.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVM.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Remove-AzureVM.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -112,7 +112,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -125,7 +127,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv
@@ -138,7 +142,9 @@ Accept wildcard characters: False
 ```
 
 ### -WhatIf
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
@@ -151,7 +157,9 @@ Accept wildcard characters: False
 ```
 
 ### -Confirm
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf

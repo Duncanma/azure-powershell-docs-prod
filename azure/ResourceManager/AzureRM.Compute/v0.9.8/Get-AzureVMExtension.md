@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Remove-AzureVMExtension.md
 schema: 2.0.0
 ms.assetid: 86C8E2A5-B20C-4BB0-8445-143355076511
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Get-AzureVMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -52,7 +52,9 @@ This command gets the instance view for the extension named CustomScriptExtensio
 ## PARAMETERS
 
 ### -Name
-Specifies the name of an extension. This cmdlet gets properties for the extension that this parameter specifies.```yaml
+Specifies the name of an extension. This cmdlet gets properties for the extension that this parameter specifies.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ExtensionName
@@ -81,7 +83,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group.```yaml
+Specifies the name of a resource group.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -94,7 +98,9 @@ Accept wildcard characters: False
 ```
 
 ### -Status
-Indicates that this cmdlet gets only the instance view of an extension.```yaml
+Indicates that this cmdlet gets only the instance view of an extension.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -107,7 +113,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies the name of a virtual machine. This cmdlet gets properties of an extension from the virtual machine that this parameter specifies.```yaml
+Specifies the name of a virtual machine. This cmdlet gets properties of an extension from the virtual machine that this parameter specifies.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName

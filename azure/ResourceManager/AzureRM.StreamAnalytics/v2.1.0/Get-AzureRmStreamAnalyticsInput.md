@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.StreamAnalytics.dll-Help.xml
 online version: .\New-AzureRmStreamAnalyticsInput.md
 schema: 2.0.0
 ms.assetid: 67092496-B255-422E-89D3-6593B957ACB2
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Get-AzureRmStreamAnalyticsInput.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Get-AzureRmStreamAnalyticsInput.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.StreamAnalytics/v2.1.0/Get-AzureRmStreamAnalyticsInput.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -95,7 +95,9 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified```yaml
+Not Specified
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: pv

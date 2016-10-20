@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\New-AzureHDInsightClusterConfig.md
 schema: 2.0.0
 ms.assetid: 6BCB0B9C-C781-41CE-B1DE-CC0DA7FB6232
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/New-AzureHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -81,7 +81,9 @@ This command creates a cluster for the current subscription.
 ## PARAMETERS
 
 ### -AdditionalStorageAccounts
-Gets additional Azure Storage Account that you want to enable access to.```yaml
+Gets additional Azure Storage Account that you want to enable access to.
+
+```yaml
 Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
 Parameter Sets: (All)
 Aliases: 
@@ -94,7 +96,9 @@ Accept wildcard characters: False
 ```
 
 ### -ClusterName
-Gets or sets the name of the cluster.```yaml
+Gets or sets the name of the cluster.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -160,7 +164,9 @@ Accept wildcard characters: False
 ```
 
 ### -Configurations
-Gets the configurations of this HDInsight cluster.```yaml
+Gets the configurations of this HDInsight cluster.
+
+```yaml
 Type: System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.Dictionary`2[System.String,System.String]]
 Parameter Sets: (All)
 Aliases: 
@@ -203,7 +209,9 @@ Accept wildcard characters: False
 ```
 
 ### -DefaultStorageContainer
-Gets or sets the StorageContainer for the default Azure Storage Account.```yaml
+Gets or sets the StorageContainer for the default Azure Storage Account.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -216,7 +224,9 @@ Accept wildcard characters: False
 ```
 
 ### -HeadNodeSize
-Gets or sets the size of the Head Node.```yaml
+Gets or sets the size of the Head Node.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -229,7 +239,9 @@ Accept wildcard characters: False
 ```
 
 ### -HiveMetastore
-Gets or sets the database to store the metadata for Hive.```yaml
+Gets or sets the database to store the metadata for Hive.
+
+```yaml
 Type: AzureHDInsightMetastore
 Parameter Sets: (All)
 Aliases: 
@@ -242,7 +254,9 @@ Accept wildcard characters: False
 ```
 
 ### -HttpCredential
-Gets or sets the login for the cluster's user.```yaml
+Gets or sets the login for the cluster's user.
+
+```yaml
 Type: PSCredential
 Parameter Sets: (All)
 Aliases: 
@@ -291,7 +305,9 @@ Accept wildcard characters: False
 ```
 
 ### -OozieMetastore
-Gets or sets the database to store the metadata for Oozie.```yaml
+Gets or sets the database to store the metadata for Oozie.
+
+```yaml
 Type: AzureHDInsightMetastore
 Parameter Sets: (All)
 Aliases: 
@@ -350,7 +366,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Gets or sets the name of the resource group.```yaml
+Gets or sets the name of the resource group.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -363,7 +381,9 @@ Accept wildcard characters: False
 ```
 
 ### -ScriptActions
-Gets config actions for the cluster.```yaml
+Gets config actions for the cluster.
+
+```yaml
 Type: System.Collections.Generic.Dictionary`2[Microsoft.Azure.Management.HDInsight.Models.ClusterNodeType,System.Collections.Generic.List`1[Microsoft.Azure.Management.HDInsight.Models.ScriptAction]]
 Parameter Sets: (All)
 Aliases: 
@@ -454,7 +474,9 @@ Accept wildcard characters: False
 ```
 
 ### -WorkerNodeSize
-Gets or sets the size of the Data Node.```yaml
+Gets or sets the size of the Data Node.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -467,7 +489,9 @@ Accept wildcard characters: False
 ```
 
 ### -ZookeeperNodeSize
-Gets or sets the size of the Zookeeper Node.```yaml
+Gets or sets the size of the Zookeeper Node.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 

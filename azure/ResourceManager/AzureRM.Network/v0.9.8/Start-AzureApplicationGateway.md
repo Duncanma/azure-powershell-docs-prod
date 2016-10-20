@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Stop-AzureApplicationGateway.md
 schema: 2.0.0
 ms.assetid: 9257F010-9013-4837-B648-A9053D6576A8
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Start-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Start-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Start-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -43,7 +43,9 @@ This command starts the application gateway stored in the $AppGw variable.
 ## PARAMETERS
 
 ### -ApplicationGateway
-Specifies the application gateway to start.```yaml
+Specifies the application gateway to start.
+
+```yaml
 Type: PSApplicationGateway
 Parameter Sets: (All)
 Aliases: 

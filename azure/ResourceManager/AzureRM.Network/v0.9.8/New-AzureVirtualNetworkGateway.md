@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: 36a3f991-eac6-475b-9047-42fa86d0b48f
 schema: 2.0.0
 ms.assetid: 1E4437D4-2013-406F-8919-B8C109946626
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -41,7 +41,9 @@ PS C:\>
 ## PARAMETERS
 
 ### -EnableBgp
-EnableBgp Flag```yaml
+EnableBgp Flag
+
+```yaml
 Type: Boolean
 Parameter Sets: (All)
 Aliases: 
@@ -54,7 +56,9 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Do not ask for confirmation if you want to overrite a resource```yaml
+Do not ask for confirmation if you want to overrite a resource
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -80,7 +84,9 @@ Accept wildcard characters: False
 ```
 
 ### -IpConfigurations
-The IpConfigurations for Virtual network gateway.```yaml
+The IpConfigurations for Virtual network gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSVirtualNetworkGatewayIpConfiguration]
 Parameter Sets: (All)
 Aliases: 
@@ -106,7 +112,9 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The resource name.```yaml
+The resource name.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName
@@ -132,7 +140,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name.```yaml
+The resource group name.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -145,7 +155,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-An array of hashtables which represents resource tags.```yaml
+An array of hashtables which represents resource tags.
+
+```yaml
 Type: Hashtable[]
 Parameter Sets: (All)
 Aliases: 
@@ -158,7 +170,9 @@ Accept wildcard characters: False
 ```
 
 ### -VpnType
-The type of the Vpn:PolicyBased/RouteBased```yaml
+The type of the Vpn:PolicyBased/RouteBased
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 

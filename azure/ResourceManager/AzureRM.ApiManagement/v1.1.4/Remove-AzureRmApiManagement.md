@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ApiManagement.dll-Help.xml
 online version: .\Backup-AzureRmApiManagement.md
 schema: 2.0.0
 ms.assetid: 9A2C4617-9870-4D9C-92FA-2AF03211D931
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Remove-AzureRmApiManagement.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Remove-AzureRmApiManagement.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.ApiManagement/v1.1.4/Remove-AzureRmApiManagement.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -89,7 +89,9 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Do not confirm on the removal of the API Management service.```yaml
+Do not confirm on the removal of the API Management service.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -102,7 +104,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -115,7 +119,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv

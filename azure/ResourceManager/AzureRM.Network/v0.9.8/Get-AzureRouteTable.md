@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\New-AzureRouteTable.md
 schema: 2.0.0
 ms.assetid: 36A3F991-EAC6-475B-9047-42FA86D0B48F
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -96,7 +96,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group that contains the route tables that this cmdlet gets.```yaml
+Specifies the name of the resource group that contains the route tables that this cmdlet gets.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dl
 online version: .\New-AzureRouteTable.md
 schema: 2.0.0
 ms.assetid: 36A3F991-EAC6-475B-9047-42FA86D0B48F
-updated_at: 10/19/2016 10:11 PM
-ms.date: 10/19/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v0.9.8/Get-AzureRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -77,7 +77,9 @@ Accept wildcard characters: False
 ```
 
 ### -PipelineVariable
-Not Specified```yaml
+Not Specified
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: pv

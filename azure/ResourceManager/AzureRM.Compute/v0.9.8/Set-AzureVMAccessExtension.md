@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Get-AzureVMAccessExtension.md
 schema: 2.0.0
 ms.assetid: 30F0A1C0-3855-4689-90C8-D7AD82E1E4ED
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMAccessExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMAccessExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Set-AzureVMAccessExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -46,7 +46,9 @@ The command specifies the name and type handler version for VMAccess.
 ## PARAMETERS
 
 ### -Location
-Specifies the location of the virtual machine.```yaml
+Specifies the location of the virtual machine.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -59,7 +61,9 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the extension that this cmdlet adds.```yaml
+Specifies the name of the extension that this cmdlet adds.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ExtensionName
@@ -103,7 +107,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group of the virtual machine.```yaml
+Specifies the name of the resource group of the virtual machine.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -116,7 +122,9 @@ Accept wildcard characters: False
 ```
 
 ### -TypeHandlerVersion
-Specifies the version of the extension to use for this virtual machine. To obtain the version, run the Get-AzureVMExtensionImage cmdlet with a value of Microsoft.Compute for the PublisherName parameter and VMAccessAgent for the Type parameter.```yaml
+Specifies the version of the extension to use for this virtual machine. To obtain the version, run the Get-AzureVMExtensionImage cmdlet with a value of Microsoft.Compute for the PublisherName parameter and VMAccessAgent for the Type parameter.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: HandlerVersion, Version
@@ -144,7 +152,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies the name of a virtual machine. This cmdlet adds VMAccess for the virtual machine that this parameter specifies.```yaml
+Specifies the name of a virtual machine. This cmdlet adds VMAccess for the virtual machine that this parameter specifies.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName

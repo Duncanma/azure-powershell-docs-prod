@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Add-AzureApplicationGatewaySslCertificate.md
 schema: 2.0.0
 ms.assetid: 2E4C428F-C570-423C-A46B-F6942D6090E2
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewaySslCertificate.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewaySslCertificate.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/Get-AzureApplicationGatewaySslCertificate.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -52,7 +52,9 @@ This command gets a list of SSL certificates from the application gateway named 
 ## PARAMETERS
 
 ### -ApplicationGateway
-Specifies the application gateway object that contains the SSL certificate.```yaml
+Specifies the application gateway object that contains the SSL certificate.
+
+```yaml
 Type: PSApplicationGateway
 Parameter Sets: (All)
 Aliases: 

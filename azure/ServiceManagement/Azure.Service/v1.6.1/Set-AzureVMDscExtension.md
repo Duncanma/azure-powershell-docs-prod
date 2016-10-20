@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.dll-Help.x
 online version: .\Get-AzureVMDscExtension.md
 schema: 2.0.0
 ms.assetid: 111C7205-F105-4982-B906-FCC0C0C4E59E
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMDscExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMDscExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Service/v1.6.1/Set-AzureVMDscExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -279,7 +279,9 @@ Accept wildcard characters: False
 ### -WmfVersion
 Specifies the version of the Windows Management Framework (WMF) to install on the VM. The DSC Azure Extension depends on DSC features that are only available in the WMF updates. This parameter specifies which version of the update to install on the VM. The possible values are "4.0","latest" and "5.0".
             A value of "4.0" will install KB3000850 (http://support.microsoft.com/kb/3000850) on Windows 8.1 or Windows Server 2012 R2, or WMF 4.0 (http://www.microsoft.com/en-us/download/details.aspx?id=40855) on other versions of Windows if a newer version isnt already installed.
-            A value of "5.0" will install the latest release of WMF 5.0 (https://www.microsoft.com/en-us/download/details.aspx?id=50395). A value of "latest" will install the latest WMF, currently WMF 5.0. The default value is "latest"```yaml
+            A value of "5.0" will install the latest release of WMF 5.0 (https://www.microsoft.com/en-us/download/details.aspx?id=50395). A value of "latest" will install the latest WMF, currently WMF 5.0. The default value is "latest"
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -292,7 +294,9 @@ Accept wildcard characters: False
 ```
 
 ### -DataCollection
-Enables or Disables Data Collection in the extension.  It is enabled if it is not specified.  The value is persisted in the extension between calls. Allowed Values are: Enable and Disable```yaml
+Enables or Disables Data Collection in the extension.  It is enabled if it is not specified.  The value is persisted in the extension between calls. Allowed Values are: Enable and Disable
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -335,7 +339,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationAction
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -348,7 +354,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv

@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: .\Get-AzureSchedulerJob.md
 schema: 2.0.0
 ms.assetid: 7CB1A0D0-7D9C-4273-963E-F92A5D132711
-updated_at: 10/19/2016 9:46 PM
-ms.date: 10/19/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureSchedulerLocation.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/74b346742ae40ec75fc505ce886fae2812ab9a3a/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureSchedulerLocation.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Get-AzureSchedulerLocation.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -44,7 +44,9 @@ This command gets available scheduler locations.
 ## PARAMETERS
 
 ### -Profile
-In-memory profile.```yaml
+In-memory profile.
+
+```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
 Aliases: 

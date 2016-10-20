@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Tags.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=404174
 schema: 2.0.0
 ms.assetid: AC99BEDE-9BB0-4449-9947-6DBBB236758D
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v1.0/Remove-AzureRmTag.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v1.0/Remove-AzureRmTag.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Tags/v1.0/Remove-AzureRmTag.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -72,7 +72,9 @@ If the value has been applied to any resources or resource groups, the command f
 ## PARAMETERS
 
 ### -Force
-Forces the command to run without asking for user confirmation.```yaml
+Forces the command to run without asking for user confirmation.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 

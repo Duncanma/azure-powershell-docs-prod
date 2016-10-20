@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\Get-AzureRouteTable.md
 schema: 2.0.0
 ms.assetid: 5673803B-4005-4588-9E22-47B3729C208D
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureRouteTable.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureRouteTable.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureRouteTable.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -70,7 +70,9 @@ The command specifies the resource group to which the table belongs and the loca
 ## PARAMETERS
 
 ### -Force
-Indicates that this cmdlet creates a route table even if a route table that has the same name already exists.```yaml
+Indicates that this cmdlet creates a route table even if a route table that has the same name already exists.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -130,7 +132,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group in which this cmdlet creates a route table.```yaml
+Specifies the name of the resource group in which this cmdlet creates a route table.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -143,7 +147,9 @@ Accept wildcard characters: False
 ```
 
 ### -Route
-Specifies an array of Route objects to associate with the route table.```yaml
+Specifies an array of Route objects to associate with the route table.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSRoute]
 Parameter Sets: (All)
 Aliases: 
@@ -156,7 +162,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-Specifies a dictionary of tags to associate with the route table.```yaml
+Specifies a dictionary of tags to associate with the route table.
+
+```yaml
 Type: Hashtable[]
 Parameter Sets: (All)
 Aliases: 

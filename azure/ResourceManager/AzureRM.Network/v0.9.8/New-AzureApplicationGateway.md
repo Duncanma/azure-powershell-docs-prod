@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: .\New-AzureApplicationGatewayBackendAddressPool.md
 schema: 2.0.0
 ms.assetid: 7D70DFAE-9BA1-4FF0-8924-6CA9A1BD75CE
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGateway.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGateway.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureApplicationGateway.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -93,7 +93,9 @@ The following commands create an application gateway by first creating a resourc
 ## PARAMETERS
 
 ### -BackendAddressPools
-Specifies the list of back-end address pools for the application gateway.```yaml
+Specifies the list of back-end address pools for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayBackendAddressPool]
 Parameter Sets: (All)
 Aliases: 
@@ -106,7 +108,9 @@ Accept wildcard characters: False
 ```
 
 ### -BackendHttpSettingsCollection
-Specifies the list of back-end HTTP settings for the application gateway.```yaml
+Specifies the list of back-end HTTP settings for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayBackendHttpSettings]
 Parameter Sets: (All)
 Aliases: 
@@ -119,7 +123,9 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Forces the creation of the application gateway even if an application gateway with the same name already exists.```yaml
+Forces the creation of the application gateway even if an application gateway with the same name already exists.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -132,7 +138,9 @@ Accept wildcard characters: False
 ```
 
 ### -FrontendIPConfigurations
-Specifies a list of front-end IP configurations for the application gateway.```yaml
+Specifies a list of front-end IP configurations for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayFrontendIPConfiguration]
 Parameter Sets: (All)
 Aliases: 
@@ -145,7 +153,9 @@ Accept wildcard characters: False
 ```
 
 ### -FrontendPorts
-Specifies a list of front-end ports for the application gateway.```yaml
+Specifies a list of front-end ports for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayFrontendPort]
 Parameter Sets: (All)
 Aliases: 
@@ -158,7 +168,9 @@ Accept wildcard characters: False
 ```
 
 ### -GatewayIPConfigurations
-Specifies a list of IP configurations for the application gateway.```yaml
+Specifies a list of IP configurations for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayIPConfiguration]
 Parameter Sets: (All)
 Aliases: 
@@ -171,7 +183,9 @@ Accept wildcard characters: False
 ```
 
 ### -HttpListeners
-Specifies a list of HTTP listeners for the application gateway.```yaml
+Specifies a list of HTTP listeners for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayHttpListener]
 Parameter Sets: (All)
 Aliases: 
@@ -184,7 +198,9 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-Specifies the region in which to create the application gateway.```yaml
+Specifies the region in which to create the application gateway.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -228,7 +244,9 @@ Accept wildcard characters: False
 ```
 
 ### -RequestRoutingRules
-Specifies a list of request routing rules for the application gateway.```yaml
+Specifies a list of request routing rules for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewayRequestRoutingRule]
 Parameter Sets: (All)
 Aliases: 
@@ -241,7 +259,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group in which to create the application gateway.```yaml
+Specifies the name of the resource group in which to create the application gateway.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -254,7 +274,9 @@ Accept wildcard characters: False
 ```
 
 ### -Sku
-Specifies the stock keeping unit (SKU) of the application gateway.```yaml
+Specifies the stock keeping unit (SKU) of the application gateway.
+
+```yaml
 Type: PSApplicationGatewaySku
 Parameter Sets: (All)
 Aliases: 
@@ -267,7 +289,9 @@ Accept wildcard characters: False
 ```
 
 ### -SslCertificates
-Specifies the list of Secure Sockets Layer (SSL) certificates for the application gateway.```yaml
+Specifies the list of Secure Sockets Layer (SSL) certificates for the application gateway.
+
+```yaml
 Type: System.Collections.Generic.List`1[Microsoft.Azure.Commands.Network.Models.PSApplicationGatewaySslCertificate]
 Parameter Sets: (All)
 Aliases: 
@@ -280,7 +304,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-Specifies the dictionary of tags associated with the application gateway.```yaml
+Specifies the dictionary of tags associated with the application gateway.
+
+```yaml
 Type: Hashtable[]
 Parameter Sets: (All)
 Aliases: 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.KeyVault.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkId=824806
 schema: 2.0.0
 ms.assetid: A43C1D14-6EED-4E73-BA05-472EA58DE646
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultKeyAttribute.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultKeyAttribute.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.KeyVault/v1.1.11/Set-AzureKeyVaultKeyAttribute.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -173,7 +173,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Specifies a hash table that represents tags for a secret. If you do not specify this parameter, there is no change to the current secret's tags. To remove a tag, specify an empty hash table. For more information about resource tags, see Using tags to organize your Azure resources (http://go.microsoft.com/fwlink/?LinkId=613624).```yaml
+Specifies a hash table that represents tags for a secret. If you do not specify this parameter, there is no change to the current secret's tags. To remove a tag, specify an empty hash table. For more information about resource tags, see Using tags to organize your Azure resources (http://go.microsoft.com/fwlink/?LinkId=613624).
+
+```yaml
 Type: Hashtable
 Parameter Sets: (All)
 Aliases: 

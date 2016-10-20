@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
 online version: .\Get-AzureTrafficManagerProfile.md
 schema: 2.0.0
 ms.assetid: 406B9C0F-1C7A-4000-9AC4-A272FE4AEDD1
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v0.9.8/New-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -52,7 +52,9 @@ The DNS FQDN is contosoapp.trafficmanager.net.
 ## PARAMETERS
 
 ### -MonitorPath
-Specifies the path used to monitor endpoint health. Specify a value relative to the endpoint domain name.```yaml
+Specifies the path used to monitor endpoint health. Specify a value relative to the endpoint domain name.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -131,7 +133,9 @@ Accept wildcard characters: False
 ```
 
 ### -RelativeDnsName
-Specifies the relative DNS name that this Traffic Manager profile provides. Traffic Manager combines this value and the DNS domain name that Azure Traffic Manager uses to form the fully qualified domain name (FQDN) of the profile.```yaml
+Specifies the relative DNS name that this Traffic Manager profile provides. Traffic Manager combines this value and the DNS domain name that Azure Traffic Manager uses to form the fully qualified domain name (FQDN) of the profile.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -144,7 +148,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group. This cmdlet creates a Traffic Manager profile in the group that this parameter specifies.```yaml
+Specifies the name of a resource group. This cmdlet creates a Traffic Manager profile in the group that this parameter specifies.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -161,7 +167,9 @@ Specifies the traffic routing method. This method determines which endpoint Traf
 
 -- Performance
 -- Weighted
--- Priority```yaml
+-- Priority
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -190,7 +198,9 @@ Accept wildcard characters: False
 ```
 
 ### -ProfileStatus
-The status of the profile.```yaml
+The status of the profile.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -203,7 +213,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-A hash table which represents resource tags.```yaml
+A hash table which represents resource tags.
+
+```yaml
 Type: Hashtable[]
 Parameter Sets: (All)
 Aliases: Tags

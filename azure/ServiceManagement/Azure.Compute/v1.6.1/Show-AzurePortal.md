@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: AD7A9990-36D0-4AE5-82D8-8C0FAA159782
-updated_at: 10/19/2016 9:46 PM
-ms.date: 10/19/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Show-AzurePortal.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/74b346742ae40ec75fc505ce886fae2812ab9a3a/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Show-AzurePortal.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v1.6.1/Show-AzurePortal.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -75,7 +75,9 @@ Accept wildcard characters: False
 ```
 
 ### -Environment
-The Microsoft Azure environment name to use```yaml
+The Microsoft Azure environment name to use
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -88,7 +90,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-In-memory profile.```yaml
+In-memory profile.
+
+```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
 Aliases: 

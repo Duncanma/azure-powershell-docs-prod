@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.TrafficManager.dll-Help.xml
 online version: http://go.microsoft.com/fwlink/?LinkID=398284
 schema: 2.0.0
 ms.assetid: 95288D94-405B-4A88-BD63-850D4F72A266
-updated_at: 10/19/2016 10:11 PM
-ms.date: 10/19/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Get-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/4b5e5bf2b9726cfa193914d0aa3066271dbb9e41/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Get-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.TrafficManager/v0.9.8/Get-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -72,7 +72,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-In-memory profile.```yaml
+In-memory profile.
+
+```yaml
 Type: AzureProfile
 Parameter Sets: (All)
 Aliases: 

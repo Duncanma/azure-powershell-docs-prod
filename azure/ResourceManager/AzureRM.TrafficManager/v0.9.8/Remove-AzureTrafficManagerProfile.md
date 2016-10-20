@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.TrafficManager.dll-Help.xml
 online version: .\Get-AzureTrafficManagerProfile.md
 schema: 2.0.0
 ms.assetid: 1F36A2B5-013E-469F-99D3-2B0EE3EDD4B8
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v0.9.8/Remove-AzureTrafficManagerProfile.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v0.9.8/Remove-AzureTrafficManagerProfile.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.TrafficManager/v0.9.8/Remove-AzureTrafficManagerProfile.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -105,7 +105,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group. This cmdlet deletes a Traffic Manager profile in the group that this parameter specifies.```yaml
+Specifies the name of a resource group. This cmdlet deletes a Traffic Manager profile in the group that this parameter specifies.
+
+```yaml
 Type: String
 Parameter Sets: Fields
 Aliases: 
@@ -118,7 +120,9 @@ Accept wildcard characters: False
 ```
 
 ### -TrafficManagerProfile
-Specifies a TrafficManagerProfile object to delete.```yaml
+Specifies a TrafficManagerProfile object to delete.
+
+```yaml
 Type: TrafficManagerProfile
 Parameter Sets: Object
 Aliases: 

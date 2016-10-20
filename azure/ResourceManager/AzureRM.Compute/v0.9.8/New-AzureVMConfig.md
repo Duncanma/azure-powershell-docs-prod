@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Update-AzureVM.md
 schema: 2.0.0
 ms.assetid: AD96FEAC-55A4-435E-A7DD-76085C831F77
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/New-AzureVMConfig.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/New-AzureVMConfig.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/New-AzureVMConfig.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -49,7 +49,9 @@ The virtual machine belongs to the availability set stored in $AvailabilitySet.
 ## PARAMETERS
 
 ### -AvailabilitySetId
-Specifies the ID of an availability set. To obtain an availability set object, use the Get-AzureAvailabilitySet cmdlet. The availability set object contains an ID property.```yaml
+Specifies the ID of an availability set. To obtain an availability set object, use the Get-AzureAvailabilitySet cmdlet. The availability set object contains an ID property.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -78,7 +80,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies a name for the virtual machine.```yaml
+Specifies a name for the virtual machine.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName, Name
@@ -91,7 +95,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMSize
-Specifies the size for the virtual machine.```yaml
+Specifies the size for the virtual machine.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 

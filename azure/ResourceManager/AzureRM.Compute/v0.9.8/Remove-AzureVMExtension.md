@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Get-AzureVMExtension.md
 schema: 2.0.0
 ms.assetid: 85168A61-AFAC-4E80-BB97-1ED32FBCCDCB
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -43,7 +43,9 @@ This command removes the extension named ContosoTest from the virtual machine na
 ## PARAMETERS
 
 ### -Force
-Forces the command to run without asking for user confirmation.```yaml
+Forces the command to run without asking for user confirmation.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -56,7 +58,9 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the extension to remove.```yaml
+Specifies the name of the extension to remove.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ExtensionName
@@ -85,7 +89,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group.```yaml
+Specifies the name of a resource group.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -98,7 +104,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies the name of a virtual machine. This cmdlet removes extensions from the virtual machine that this parameter specifies.```yaml
+Specifies the name of a virtual machine. This cmdlet removes extensions from the virtual machine that this parameter specifies.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName

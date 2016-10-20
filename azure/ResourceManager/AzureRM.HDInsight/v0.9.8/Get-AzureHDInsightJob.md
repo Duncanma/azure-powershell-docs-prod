@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\Start-AzureHDInsightJob.md
 schema: 2.0.0
 ms.assetid: 9402FC58-F0AB-4CDD-A413-FC4C33D92067
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Get-AzureHDInsightJob.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Get-AzureHDInsightJob.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Get-AzureHDInsightJob.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -60,7 +60,9 @@ This command gets all recent jobs for the cluster named Hadoop-001.
 ## PARAMETERS
 
 ### -ClusterCredential
-The credentials with which to connect to the cluster.```yaml
+The credentials with which to connect to the cluster.
+
+```yaml
 Type: PSCredential
 Parameter Sets: (All)
 Aliases: 
@@ -73,7 +75,9 @@ Accept wildcard characters: False
 ```
 
 ### -ClusterName
-The name of the cluster.```yaml
+The name of the cluster.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -117,7 +121,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Gets or sets the name of the resource group.```yaml
+Gets or sets the name of the resource group.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 

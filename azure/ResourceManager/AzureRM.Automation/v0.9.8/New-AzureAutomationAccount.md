@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.ResourceManager.Automation.dll-Help
 online version: .\Get-AzureAutomationAccount.md
 schema: 2.0.0
 ms.assetid: FE2A84B8-F2DD-4846-8848-81839E8A2900
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationAccount.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationAccount.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Automation/v0.9.8/New-AzureAutomationAccount.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -77,7 +77,9 @@ Accept wildcard characters: False
 ```
 
 ### -Plan
-Specifies the plan for the Automation account. Valid values are: Basic and Free.```yaml
+Specifies the plan for the Automation account. Valid values are: Basic and Free.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -107,7 +109,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of a resource group to which this cmdlet adds an Automation account.```yaml
+Specifies the name of a resource group to which this cmdlet adds an Automation account.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -120,7 +124,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-Specifies tags for the Automation account.```yaml
+Specifies tags for the Automation account.
+
+```yaml
 Type: IDictionary
 Parameter Sets: (All)
 Aliases: Tag

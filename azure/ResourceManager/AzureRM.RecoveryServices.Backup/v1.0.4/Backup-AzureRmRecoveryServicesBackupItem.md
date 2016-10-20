@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.RecoveryServices.Backup.dll-Help.xm
 online version: .\Get-AzureRmRecoveryServicesBackupContainer.md
 schema: 2.0.0
 ms.assetid: 8CCA2582-9489-4F8D-B39A-63B17176BFD1
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Backup-AzureRmRecoveryServicesBackupItem.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Backup-AzureRmRecoveryServicesBackupItem.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.RecoveryServices.Backup/v1.0.4/Backup-AzureRmRecoveryServicesBackupItem.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -55,7 +55,9 @@ The last command triggers the backup job for the Backup item in $Item.
 ## PARAMETERS
 
 ### -InformationAction
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: ActionPreference
 Parameter Sets: (All)
 Aliases: infa
@@ -68,7 +70,9 @@ Accept wildcard characters: False
 ```
 
 ### -InformationVariable
-@{Text=}```yaml
+@{Text=}
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: iv

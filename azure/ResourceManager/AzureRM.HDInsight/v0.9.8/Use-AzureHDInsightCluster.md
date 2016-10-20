@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.HDInsight.dll-Help.xml
 online version: .\New-AzureHDInsightHiveJobDefinition.md
 schema: 2.0.0
 ms.assetid: 3B0ADDF2-EA75-407C-9CD3-5BF81797EB03
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Use-AzureHDInsightCluster.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Use-AzureHDInsightCluster.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.HDInsight/v0.9.8/Use-AzureHDInsightCluster.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -48,7 +48,9 @@ PS C:\> # Cluster info
 ## PARAMETERS
 
 ### -ClusterCredential
-The credentials with which to connect to the cluster.```yaml
+The credentials with which to connect to the cluster.
+
+```yaml
 Type: PSCredential
 Parameter Sets: (All)
 Aliases: 
@@ -61,7 +63,9 @@ Accept wildcard characters: False
 ```
 
 ### -ClusterName
-Gets or sets the name of the cluster.```yaml
+Gets or sets the name of the cluster.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -90,7 +94,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Gets or sets the name of the resource group.```yaml
+Gets or sets the name of the resource group.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 

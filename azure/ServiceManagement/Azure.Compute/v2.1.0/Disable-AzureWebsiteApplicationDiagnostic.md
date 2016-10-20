@@ -3,10 +3,10 @@ external help file: Microsoft.WindowsAzure.Commands.dll-Help.xml
 online version: http://go.microsoft.com/FWLink/p/?LinkID=311700
 schema: 2.0.0
 ms.assetid: F354203C-33FB-43AD-A8D9-E8845D5CF5D4
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Disable-AzureWebsiteApplicationDiagnostic.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Disable-AzureWebsiteApplicationDiagnostic.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ServiceManagement/Azure.Compute/v2.1.0/Disable-AzureWebsiteApplicationDiagnostic.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -114,7 +114,9 @@ Accept wildcard characters: False
 ```
 
 ### -BlobStorage
-Blob storage switch.```yaml
+Blob storage switch.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -127,7 +129,9 @@ Accept wildcard characters: False
 ```
 
 ### -Profile
-In-memory profile.```yaml
+In-memory profile.
+
+```yaml
 Type: AzureSMProfile
 Parameter Sets: (All)
 Aliases: 
@@ -140,7 +144,9 @@ Accept wildcard characters: False
 ```
 
 ### -TableStorage
-Table storage switch.```yaml
+Table storage switch.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 

@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Network.dll-Help.xml
 online version: 36a3f991-eac6-475b-9047-42fa86d0b48f
 schema: 2.0.0
 ms.assetid: 78C2E5B0-E28F-4526-9C0A-BD0A5BD5D9DE
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGatewayConnection.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGatewayConnection.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Network/v0.9.8/New-AzureVirtualNetworkGatewayConnection.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -41,7 +41,9 @@ PS C:\>
 ## PARAMETERS
 
 ### -ConnectionType
-Gateway connection type:IPsec/Vnet2Vnet/ExpressRoute/VPNClient```yaml
+Gateway connection type:IPsec/Vnet2Vnet/ExpressRoute/VPNClient
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -55,7 +57,9 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-Do not ask for confirmation if you want to overrite a resource```yaml
+Do not ask for confirmation if you want to overrite a resource
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -68,7 +72,9 @@ Accept wildcard characters: False
 ```
 
 ### -LocalNetworkGateway2
-local network gateway.```yaml
+local network gateway.
+
+```yaml
 Type: PSLocalNetworkGateway
 Parameter Sets: (All)
 Aliases: 
@@ -81,7 +87,9 @@ Accept wildcard characters: False
 ```
 
 ### -Location
-location.```yaml
+location.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -94,7 +102,9 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The resource name.```yaml
+The resource name.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName
@@ -120,7 +130,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-The resource group name.```yaml
+The resource group name.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -159,7 +171,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tag
-An array of hashtables which represents resource tags.```yaml
+An array of hashtables which represents resource tags.
+
+```yaml
 Type: Hashtable[]
 Parameter Sets: (All)
 Aliases: 
@@ -172,7 +186,9 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetworkGateway1
-First virtual network gateway.```yaml
+First virtual network gateway.
+
+```yaml
 Type: PSVirtualNetworkGateway
 Parameter Sets: (All)
 Aliases: 
@@ -185,7 +201,9 @@ Accept wildcard characters: False
 ```
 
 ### -VirtualNetworkGateway2
-Second virtual network gateway.```yaml
+Second virtual network gateway.
+
+```yaml
 Type: PSVirtualNetworkGateway
 Parameter Sets: (All)
 Aliases: 

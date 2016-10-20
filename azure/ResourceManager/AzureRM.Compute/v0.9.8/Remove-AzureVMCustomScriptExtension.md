@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Compute.dll-Help.xml
 online version: .\Get-AzureVMCustomScriptExtension.md
 schema: 2.0.0
 ms.assetid: 29F4ADFD-BE44-40E2-A459-CDBB6E011CD4
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMCustomScriptExtension.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMCustomScriptExtension.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Compute/v0.9.8/Remove-AzureVMCustomScriptExtension.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -41,7 +41,9 @@ The **Remove-AzureVMCustomScriptExtension** cmdlet removes a custom script Virtu
 ## PARAMETERS
 
 ### -Force
-Forces the command to run without asking for user confirmation.```yaml
+Forces the command to run without asking for user confirmation.
+
+```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: 
@@ -54,7 +56,9 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-Specifies the name of the custom script extension that this cmdlet removes.```yaml
+Specifies the name of the custom script extension that this cmdlet removes.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ExtensionName
@@ -83,7 +87,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Specifies the name of the resource group of the virtual machine.```yaml
+Specifies the name of the resource group of the virtual machine.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -96,7 +102,9 @@ Accept wildcard characters: False
 ```
 
 ### -VMName
-Specifies the name of a virtual machine from which this cmdlet removes the custom script extension.```yaml
+Specifies the name of a virtual machine from which this cmdlet removes the custom script extension.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: ResourceName

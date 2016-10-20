@@ -3,10 +3,10 @@ external help file: Microsoft.Azure.Commands.Sql.dll-Help.xml
 online version: 
 schema: 2.0.0
 ms.assetid: C1B89561-B9FD-4408-9884-E38570CF8A80
-updated_at: 10/18/2016 9:38 PM
-ms.date: 10/18/2016
+updated_at: 10/20/2016 12:12 AM
+ms.date: 10/20/2016
 content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabase.md
-gitcommit: https://github.com/Azure/azure-docs-powershell/blob/23cdb8705d4ab9807c0e21b238f3b134a7d49c7d/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabase.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/831f900c1a4babea8fcc8817cfbc25252a1aa872/azureps-cmdlets-docs/ResourceManager/AzureRM.Sql/v0.9.8/Set-AzureSqlDatabase.md
 ms.topic: reference
 ms.prod: powershell
 ms.service: Azure PowerShell
@@ -107,7 +107,9 @@ Accept wildcard characters: False
 ```
 
 ### -RequestedServiceObjectiveName
-The name of the service objective to assign to the Azure SQL Database.```yaml
+The name of the service objective to assign to the Azure SQL Database.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -120,7 +122,9 @@ Accept wildcard characters: False
 ```
 
 ### -ElasticPoolName
-The name of the Azure SQL elastic pool to put the database in.```yaml
+The name of the Azure SQL elastic pool to put the database in.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
@@ -133,7 +137,9 @@ Accept wildcard characters: False
 ```
 
 ### -Tags
-The tags to associate with the Azure SQL Database.```yaml
+The tags to associate with the Azure SQL Database.
+
+```yaml
 Type: System.Collections.Generic.Dictionary`2[System.String,System.String]
 Parameter Sets: (All)
 Aliases: 
@@ -161,7 +167,9 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceGroupName
-Name of resource group of the Azure SQL Server that contains the Azure SQL Database.```yaml
+Name of resource group of the Azure SQL Server that contains the Azure SQL Database.
+
+```yaml
 Type: String
 Parameter Sets: (All)
 Aliases: 
