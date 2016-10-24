@@ -1,0 +1,184 @@
+---
+external help file: Microsoft.WindowsAzure.Commands.ServiceManagement.Network.dll-Help.xml
+online version: 4e888699-d5c0-458a-9aa9-945aa2181ba5
+schema: 2.0.0
+ms.assetid: 08303A86-A014-4F8A-B3FC-D4931701BF72
+updated_at: 10/24/2016 11:18 PM
+ms.date: 10/24/2016
+content_git_url: https://github.com/Azure/azure-docs-powershell/blob/master/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureIPForwarding.md
+gitcommit: https://github.com/Azure/azure-docs-powershell/blob/7db57df6b5e709a7c001e6de362a1240d7583ae8/azureps-cmdlets-docs/ServiceManagement/Azure.Networking/v3.0.0/Get-AzureIPForwarding.md
+ms.topic: reference
+ms.prod: powershell
+ms.service: Azure PowerShell
+ms.technology: Azure PowerShell
+author: visual-studio-china
+keywords: powershell, cmdlet
+manager: visual-studio-china
+---
+
+# Get-AzureIPForwarding
+
+## SYNOPSIS
+Gets the status of IP forwarding.
+
+## SYNTAX
+
+### IaaSIPForwardingParamSet
+```
+Get-AzureIPForwarding [-VM] <PersistentVMRoleContext> [-ServiceName] <String>
+ [[-NetworkInterfaceName] <String>] [-Profile <AzureSMProfile>] [-PipelineVariable <String>]
+ [<CommonParameters>]
+```
+
+### SlotIPForwardingParamSet
+```
+Get-AzureIPForwarding [-ServiceName] <String> [[-Slot] <String>] [-RoleName] <String>
+ [[-NetworkInterfaceName] <String>] [-Profile <AzureSMProfile>] [-PipelineVariable <String>]
+ [<CommonParameters>]
+```
+
+## DESCRIPTION
+The **Get-AzureIPForwarding** cmdlet gets the status of IP forwarding.
+
+## EXAMPLES
+
+### Example 1: Get IP forwarding status for a virtual machine
+```
+PS C:\>Get-AzureVM -ServiceName "ContosoService" -Name "ContosoVM06" | Get-AzureIPForwarding
+Disabled
+```
+
+This command gets a virtual machine named ContosoVM06 for the service named ContosoService, and passes that virtual machine object to the current cmdlet.
+The current cmdlet gets the status of IP forwarding for that virtual machine.
+
+## PARAMETERS
+
+### -NetworkInterfaceName
+Specifies the name of the network adapter for which this cmdlet gets IP forwarding status.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 4
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PipelineVariable
+Not Specified
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: pv
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Profile
+ps_azureprofile_description
+
+```yaml
+Type: AzureSMProfile
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -RoleName
+Specifies the name of a PaaS role for which this cmdlet gets IP forwarding status.
+
+```yaml
+Type: String
+Parameter Sets: SlotIPForwardingParamSet
+Aliases: 
+
+Required: True
+Position: 3
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServiceName
+Specifies the name of a cloud service.
+The PaaS role belongs to the service that this parameter specifies.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Slot
+Specifies a PaaS slot.
+The PaaS role for which this cmdlet gets forwarding status has the slot that this parameter specifies.
+Valid values are: 
+
+- Production
+- Staging 
+
+The default value is Production.
+
+```yaml
+Type: String
+Parameter Sets: SlotIPForwardingParamSet
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -VM
+Specifies the virtual machine object for which this cmdlet gets IP forwarding status.
+
+```yaml
+Type: PersistentVMRoleContext
+Parameter Sets: IaaSIPForwardingParamSet
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+## INPUTS
+
+## OUTPUTS
+
+### System.String
+
+## NOTES
+
+## RELATED LINKS
+
+[Set-AzureIPForwarding](.\Set-AzureIPForwarding.md)
+
+
